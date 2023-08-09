@@ -1,0 +1,89 @@
+.contact-text {
+    z-index: 5;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    background-repeat:no-repeat ;
+    background: rgb(255,255,255);
+    border-radius: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 16px;
+    font-family: Leaguespartan, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 100%;
+}
+.contact-container {
+    display: block;
+}
+.contact-links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    transition-duration: .3s;
+}
+.contact-links:hover {
+    color: blue;
+}
+.contact-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-size: 32px;
+    width: 45%;
+    text-align: center;
+    margin: 31px;
+}
+.container-contact-box {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.contact-links {
+    display: flex;
+    align-items: center;
+}
+.contact-icons i {
+    width: 100%;
+    margin-left: 17px;
+}
+.contact-texts {
+    margin-left: 5px;
+}
+.contact-text-icon {
+    margin-right: 10px;
+}
+.phones-box {
+    justify-content: start;
+}
+.emails-box {
+    justify-content: end;
+}
+.s-media-box {
+    justify-content: start;
+}
+@media (max-width: 767px) { 
+    .contact-box {
+        width: 100%;
+        justify-content: center;
+    }
+    .contact-links {
+        font-size: 22px;
+    }
+}
+@media (min-width: 767px) and (max-width: 992px) { 
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
+}
